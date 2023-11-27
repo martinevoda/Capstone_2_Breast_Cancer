@@ -1,0 +1,66 @@
+Classification Report for LogisticRegression:
+              precision    recall  f1-score   support
+
+           0       0.74      0.77      0.75        77
+           1       0.68      0.64      0.66        59
+
+    accuracy                           0.71       136
+   macro avg       0.71      0.71      0.71       136
+weighted avg       0.71      0.71      0.71       136
+
+
+Classification Report for KNeighborsClassifier:
+              precision    recall  f1-score   support
+
+           0       0.74      0.71      0.73        77
+           1       0.65      0.68      0.66        59
+
+    accuracy                           0.70       136
+   macro avg       0.69      0.70      0.69       136
+weighted avg       0.70      0.70      0.70       136
+
+
+Classification Report for DecisionTreeClassifier:
+              precision    recall  f1-score   support
+
+           0       0.77      0.69      0.73        77
+           1       0.64      0.73      0.68        59
+
+    accuracy                           0.71       136
+   macro avg       0.70      0.71      0.70       136
+weighted avg       0.71      0.71      0.71       136
+
+
+Classification Report for RandomForestClassifier:
+              precision    recall  f1-score   support
+
+           0       0.79      0.75      0.77        77
+           1       0.70      0.75      0.72        59
+
+    accuracy                           0.75       136
+   macro avg       0.75      0.75      0.75       136
+weighted avg       0.75      0.75      0.75       136
+
+
+Classification Report for AdaBoostClassifier:
+              precision    recall  f1-score   support
+
+           0       0.76      0.73      0.74        77
+           1       0.66      0.69      0.68        59
+
+    accuracy                           0.71       136
+   macro avg       0.71      0.71      0.71       136
+weighted avg       0.72      0.71      0.71       136
+
+
+Classification Report for XGBClassifier:
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75        77
+           1       0.67      0.69      0.68        59
+
+    accuracy                           0.72       136
+   macro avg       0.72      0.72      0.72       136
+weighted avg       0.72      0.72      0.72       136
+
+
