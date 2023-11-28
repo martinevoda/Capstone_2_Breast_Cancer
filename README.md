@@ -20,7 +20,7 @@ This project focuses on developing a classification model to predict the likelih
   ```bash
   pip install -r requirements.txt
 
-Running the Notebooks
+### Running the Notebooks
 - 1-	Open Jupyter Notebook.
 - 2-	Navigate to the Notebooks directory.
 - 3-	Open and run the notebooks in the following order:
@@ -28,13 +28,13 @@ Running the Notebooks
     * Breast Cancer Exploratory Analysis.ipynb
     * Breast Cancer Feature Engineering and Modeling.ipynb.
       
-##Results
+### Results
 In summary, the project has achieved success in constructing predictive models for breast cancer recurrence, showcasing particularly impressive performance with the RandomForestClassifier. The thorough evaluation of these models has yielded valuable insights, establishing a robust foundation for informed decision-making. To further enhance model efficacy, continuous refinements and explorations are recommended. The meticulous fitting of models to the dataset, coupled with comprehensive assessments of accuracy, precision, recall, and F1-score, has provided a detailed understanding of their predictive capabilities. Notably, the classification reports have placed a specific emphasis on predicting breast cancer recurrence or death (class 1).
 
-##Acknowledgments
+### Acknowledgments
 The primary data source is the breast cancer dataset from Kaggle
 
-##Contact
+### Contact
 Martin E. Vodanovic
 Email: martinevodanovic@gmail.com
 
