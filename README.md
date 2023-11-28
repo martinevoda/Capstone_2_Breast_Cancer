@@ -1,4 +1,3 @@
-# Capstone_2_Breast_Cancer
 # Breast Cancer Recurrence Prediction
 
 ## Overview
