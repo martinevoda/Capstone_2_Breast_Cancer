@@ -1,8 +1,14 @@
 import streamlit as st
 import pickle
+import os
 
-
-model = pickle.load(open('random_forest_model.pkl','rb'))
+script_directory = os.path.dirname(os.path.abspath(__file__))
+model_path  = os.path.join(script_directory, 'random_forest_model.pkl')
+if os.path.exists(model_path):
+     with open(model_path, 'rb') as file:
+          model = pickle.load(file)
+else:
+     print(f"Error: file '{model_path}' not found")
 
 def mlr_prediction(age, meno, size, grade,nodes, pgr, er, hormon, rfstime):
     a = str(age)
