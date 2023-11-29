@@ -11,7 +11,7 @@ This project focuses on developing a classification model to predict the likelih
   - `gbsg_without_unmamed.csv`: Dataset used for training and testing the model.
   - `random_forest_model.pkl`: Trained Random Forest model.
   - `requirements.txt`: List of required Python packages for deployment.
- 	- `app.py`: Code for deploying the model and making predictions.
+  - `app.py`: Code for deploying the model and making predictions.
 - **Images**: Houses all the images used in the project report.
 - **Notebooks**:
   - `Breast Cancer Data Wrangling.ipynb`: Notebook for data preprocessing and cleaning.
