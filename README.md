@@ -4,14 +4,13 @@
 This project focuses on developing a classification model to predict the likelihood of breast cancer recurrence or death based on patient information and tumor characteristics.
 
 ## Project Structure
-
-- **Documentation**: Contains the project proposal, final report, and presentation slides.
-- **Data**: Includes the dataset in CSV format.
 - **Deployment**: Contains files related to deploying the breast cancer recurrence prediction model.
   - `gbsg_without_unmamed.csv`: Dataset used for training and testing the model.
   - `random_forest_model.pkl`: Trained Random Forest model.
   - `requirements.txt`: List of required Python packages for deployment.
   - `app.py`: Code for deploying the model and making predictions.
+- **Documentation**: Contains the project proposal, final report, and presentation slides.
+- **Data**: Includes the dataset in CSV format.
 - **Images**: Houses all the images used in the project report.
 - **Notebooks**:
   - `Breast Cancer Data Wrangling.ipynb`: Notebook for data preprocessing and cleaning.
