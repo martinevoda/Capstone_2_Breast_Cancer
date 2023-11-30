@@ -1,17 +1,14 @@
 import streamlit as st
 import pickle
 import os
-import wget
 
-url = 'https://github.com/martinevoda/Capstone_2_Breast_Cancer/blob/main/Deployment/RandomForestClassifier.pkl'
-filename = 'RandomForestClassifier.pkl'
-wget.download(url)
-if os.path.isfile(filename):
-     with open(filename, 'rb') as file:
+
+model_path  = './Deployment/RandomForestClassifier.pkl'
+if os.path.exists(model_path):
+     with open(model_path, 'rb') as file:
           model = pickle.load(file)
 else:
-     print(f"Error: file '{filename}' not found")
-
+     print(f"Error: file '{model_path}' not found")
 
 def mlr_prediction(age, meno, size, grade,nodes, pgr, er, hormon, rfstime):
     a = str(age)
