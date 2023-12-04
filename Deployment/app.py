@@ -2,13 +2,9 @@ import streamlit as st
 import pickle
 import os
 
+model = pickle.load(open('RandomForestClassifier.pkl', 'rb'))
 
-model_path  = './Deployment/RandomForestClassifier.pkl'
-if os.path.exists(model_path):
-     with open(model_path, 'rb') as file:
-          model = pickle.load(file)
-else:
-     print(f"Error: file '{model_path}' not found")
+
 
 def mlr_prediction(age, meno, size, grade,nodes, pgr, er, hormon, rfstime):
     a = str(age)
@@ -27,9 +23,9 @@ def mlr_prediction(age, meno, size, grade,nodes, pgr, er, hormon, rfstime):
 
     # Conver prediction to status
     if prediction[0] == 0:
-         return "Being alive without recurrence"
+          return "Being alive without recurrence"
     else:
-         return "Recurrence or death"
+          return "Recurrence or death"
 
 def main():
      #web title
